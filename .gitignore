@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+.env/
+.conda/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.DS_Store
+*:Zone.Identifier
+
+# Raw and heavy local data
+data/raw/
+data/processed/
+coca_project/
+coca_project_backup/
+
+# Local setup / installers
+Miniforge3-Linux-x86_64.sh
+bootstrap_radiomics_env.sh
+requirements_predict2.txt
+requirements_predict2_radiomics_py311.txt
+README_predict2_local.md
+
+# Intermediate manifests/results not needed for submission
+data/manifests/project2_all/
+data/manifests/project2_run/
+data/manifests/project2_subset_24.csv
+data/results/project2_all_usable_agatston.csv
+data/results/project2_core_24/
